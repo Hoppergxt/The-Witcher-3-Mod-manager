@@ -12,6 +12,12 @@ class CustomMainWindow(QMainWindow):
         super().__init__(parent)
         self.dropCallback = dropCallback
 
+        # Apply dark mode styles
+
+    with open('darkmode.qss', 'r') as f:
+
+        self.setStyleSheet(f.read())
+
     def dragEnterEvent(self, event):
         '''Qt dragEnterEvent override'''
         urls = event.mimeData().urls()
