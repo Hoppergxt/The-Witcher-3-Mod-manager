@@ -1,0 +1,22 @@
+/* Dark mode colors */
+MainWindow {
+    background-color: #212121; /* dark gray background */
+}
+
+QLabel {
+    color: #FFFFFF; /* white text */
+}
+
+QPushButton {
+    background-color: #66D9EF; /* blue accent color */
+    color: #FFFFFF; /* white text */
+    border: 1px solid #333333; /* dark gray border */
+}
+
+QPushButton:hover {
+    background-color: #4CAF50; /* green hover color */
+}
+
+QPushButton:pressed {
+    background-color: #2196F3; /* blue pressed color */
+}
